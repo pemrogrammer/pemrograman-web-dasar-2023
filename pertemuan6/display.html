@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Display</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Contoh default display Inline</h1>
+	<span>ini span </span> <b>ini b</b> <i>ini i</i> <u>ini u</u>
+
+	<h1>contoh default display block</h1>
+	<p>ini p</p>
+	<div>ini div</div>
+	<h6>hi - h6</h6>
+
+	<div>
+		<p class="d-inline bg-red">ini adalah inline 1</p>
+		<p class="d-inline bg-red">ini adalah inline 2</p>
+		<p class="d-inline bg-red">ini adalah inline 3</p>
+	</div>
+	<!-- inline akan membuat setiap komponennya menyamping tapi ukuran (width & height) tidak bisa dirubah -->
+	<div>
+		<span class="d-block bg-red">ini adalah block span 1</span>
+		<span class="d-block bg-red">ini adalah block span 1</span>
+		<span class="d-block bg-red">ini adalah block span 1</span>
+	</div>
+	<!-- block akan membuat setiap komponennya kebawah -->
+
+	<div>
+		<span class="bg-red d-inline-block">ini adlah inline-block 1</span>
+		<span class="bg-red d-inline-block">ini adlah inline-block 2</span>
+		<span class="bg-red d-inline-block">ini adlah inline-block 3</span>
+	</div>
+	<!-- inline-block akan membuat menggabungkan inline dan block (setiap komponen aka ke samping tapi ukurannya bia dirubah) -->
+</body>
+</html>
